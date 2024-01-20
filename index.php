@@ -72,25 +72,6 @@ $songs_index = array_merge(array(), $songs_array);      // ! COPY array to new a
         <option value="theCats">The Cats</option>
         <option value="Top40">Top40</option>
         <option value="Test opstelling">Test opstelling</option>
-        <!-- <option value="Top 40 - 1965">Top 40 - 1965</option>
-        <option value="Top 40 - 1966">Top 40 - 1966</option>
-        <option value="Top 40 - 1967">Top 40 - 1967</option>
-        <option value="Top 40 - 1968">Top 40 - 1968</option>
-        <option value="Top 40 - 1969">Top 40 - 1969</option>
-        <option value="Top 40 - 1970">Top 40 - 1970</option>
-        <option value="Top 40 - 1971">Top 40 - 1971</option>
-        <option value="Top 40 - 1972">Top 40 - 1972</option>
-        <option value="Top 40 - 1973">Top 40 - 1973</option>
-        <option value="Top 40 - 1974">Top 40 - 1974</option>
-        <option value="Top 40 - 1975">Top 40 - 1975</option>
-        <option value="Top 40 - 1976">Top 40 - 1976</option>
-        <option value="Top 40 - 1977">Top 40 - 1977</option>
-        <option value="Top 40 - 1978">Top 40 - 1978</option>
-        <option value="Top 40 - 1979">Top 40 - 1979</option>
-        <option value="Top 40 - 1980">Top 40 - 1980</option>
-        <option value="Top 40 - 1981">Top 40 - 1981</option>
-        <option value="Top 40 - 1982">Top 40 - 1982</option>
-        <option value="Top 40 - 1983">Top 40 - 1983</option> -->
         <option value="TOP 2000 van 1965 tot 1985">TOP 2000 van 1965 tot 1985</option>
         <option value="TOP 100-JAAROVERZICHT VAN 1965">Top 40 - 1965 top100</option>
         <option value="TOP 100-JAAROVERZICHT VAN 1966">Top 40 - 1966 top100</option>
@@ -193,47 +174,6 @@ $songs_index = array_merge(array(), $songs_array);      // ! COPY array to new a
         $search = "off";
         $playing = "on";
       };
-      // ! POST input search----------------END----------------------------------
-
-      // function print_search()
-      // {
-      //   global $filePath, $search, $search_array, $playing, $dirName;
-
-      //   foreach ($search_array as $key => $value) {
-      //     $txt =  explode("-", $value);
-      //     $txt[0] = strtoupper($txt[0]);
-      //     $txt[1] = strtoupper($txt[1]);
-      //     if (isset($txt[2])) {
-      //       $txt[2] = strtoupper($txt[2]);
-      //     } else {
-      //       $txt[2] = '';
-      //     }
-      //     if (
-      //       $dirName == "Muziek" ||
-      //       $dirName == "theCats" ||
-      //       $dirName == "line_dance_Annie" ||
-      //       $dirName == "kerst_songs" ||
-      //       $dirName == "Juan Gabriel" ||
-      //       $dirName == "GradDamen" ||
-      //       $dirName == "country" ||
-      //       $dirName == "Christmas" ||
-      //       $dirName == "Bobby Goldsboro" ||
-      //       $dirName == "top25nl"
-      //     ) {
-      //       $value2 = $txt[0] . " - " . $txt[1];
-      //     } else {
-      //       $value2 = $txt[1] . " - " . $txt[2];
-      //     }
-      //     echo "<li class='$key list' id='$key' >
-      //     <p class='center_point2'></p>
-      //     <img class='$key hoes' src='$filePath/$value.jpg' loading='lazy' >
-      //     <p class='$key txt1'>$value2</p>
-      //     <span><b class='local add' onclick='nr=null;local_add({$key})'>ADD</b></span>
-      //     </li>";
-      //   }
-      //   $search = "on";
-      //   $playing = 'off';
-      // }
 
       function print_array()
       {
@@ -280,7 +220,6 @@ $songs_index = array_merge(array(), $songs_array);      // ! COPY array to new a
     </div>
 
   </div>
-
 
   <script>
     console.log('php_script.php');
